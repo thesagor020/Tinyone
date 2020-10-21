@@ -1,0 +1,235 @@
+/*
+  Theme Name: Name - Tinyone HOMEPAGE
+  Author: sagorhossain020@gmail.com
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features
+*/
+
+
+
+/* 1. Theme default css */
+ body {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.text-center{
+	text-align: center;
+}
+.ml-25{
+	margin-left: 25px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none;
+}
+
+.fix {
+	overflow: hidden
+}
+.bg{
+	background: #000000;
+}
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/*Default css end*/
+
+/***************************************
+
+	Header Section Css start
+
+***************************************/
+.header-section{
+	width: 100%;
+	background: #fcdb00;
+	padding: 50px 0px;
+}
+.header-section .nav-item {
+    padding: 0px 0px 0px 60px;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: #010101;
+	font-size: 22px;
+	font-weight: 700;
+}
+.banner-section{
+	width: 100%;
+}
+.banner-section .banner-inner h2{
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.banner-section .banner-inner h4{
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+	padding: 20px 0px;
+}
+.banner-section .banner-inner ul li{
+	display: inline;
+	list-style-type: none;
+	padding: 0px 0px 0px 35px;
+}
+.banner-section .banner-inner ul li:first-child{
+	padding: 0px;
+}
+.banner-section .banner-inner p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #555555;
+	margin-bottom: 35px;
+}
+.banner-section .banner-inner {
+    padding: 130px 0px;
+}
+.banner-img {
+    position: absolute;
+    left: 25%;
+    top: 12%;
+}
+/*banner end*/
+.feature-section{
+	width: 100%;
+}
+.feature-section .title {
+    padding: 80px 0px;
+}
+.feature-section .title h2{
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.feature-section .title p{
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+}
+.feature-section .feature-inner .media i{
+	font-size: 50px;
+}
+.feature-section .feature-inner .media-body {
+	margin-bottom: 60px;
+	color: #898989;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.feature-section .feature-inner .media-body h5{
+	font-size: 22px;
+	color: #010101;
+	font-weight: 400;
+}
+
+/***************************
+	feature section end
+***************************/
+footer{
+	background: #010101;
+}
+footer .title {
+	padding: 65px 0px 20px;
+}
+footer .title h2{
+	font-size: 32px;
+	font-weight: 700;
+	color: #fcdb00;
+}
+footer .title p{
+	font-size: 20px;
+	font-weight: 400;
+	color: #898989;
+	margin-bottom: 45px;
+}
+footer .form {
+    display: flex;
+    flex-flow: row wrap;
+}
+footer input {
+    width: 78%;
+    padding-left: 20px;
+    height: 55px;
+    border-radius: 7px;
+    border: none;
+}
+footer .btn-info {
+    color: #000000;
+    background-color: #fcdb00;
+    border: 1px solid #fcdb00;
+    padding: 3px 35px;
+    margin-left: 15px;
+    transition: 1s;
+    line-height: 45px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+footer .btn-info:hover{
+	border: 1px solid#fcdb00;
+	background: transparent;
+	color: #fff;
+}
+footer .social-icons {
+    padding: 60px 0px 90px;
+}
+footer .social-icons ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 15px;
+}
+footer .social-icons ul li a{
+	color: #fcdb00;
+	font-size: 52px;
+	transition: 1s;
+}
+footer .social-icons ul li a:hover{
+	color: #ffffff;
+}
+/*****footer-end start******/
+.footer-end{
+	padding-bottom: 100px;
+}
+.footer-end .contact h4{
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 28px;
+}
+.footer-end .contact h5{
+	font-size: 16px;
+	color: #ffffff;
+}
+.footer-end .contact h6{
+	font-size: 16px;
+	color: #ffffff;
+}
+.footer-end .example ul li {
+	padding-bottom: 4px ;
+}
+.footer-end .example ul li a{
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 400;
+}
